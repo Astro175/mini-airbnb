@@ -1,0 +1,20 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Cozy Apartment",
+      "location": "Berlin",
+      "price": 80,
+      "image": "https://source.unsplash.com/random/400x200?apartment",
+      "description": "2 bed, 1 bath in central Berlin"
+    },
+    {
+      "id": 2,
+      "title": "Modern Loft",
+      "location": "San Francisco",
+      "price": 200,
+      "image": "https://source.unsplash.com/random/400x200?loft",
+      "description": "Beautiful open space loft in SF"
+    }
+  ]
+}
