@@ -1,20 +1,76 @@
 {
   "properties": [
     {
-      "id": 1,
       "title": "Cozy Apartment",
       "location": "Berlin",
       "price": 80,
-      "image": "https://source.unsplash.com/random/400x200?apartment",
-      "description": "2 bed, 1 bath in central Berlin"
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "description": "2 bed, 1 bath in central Berlin, Germany",
+      "id": "1"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Modern Loft",
       "location": "San Francisco",
       "price": 200,
-      "image": "https://source.unsplash.com/random/400x200?loft",
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
       "description": "Beautiful open space loft in SF"
+    },
+    {
+      "id": "3",
+      "title": "Beach House",
+      "location": "Miami",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2",
+      "description": "3 bed, 2 bath with ocean views"
+    },
+    {
+      "id": "4",
+      "title": "Mountain Cabin",
+      "location": "Aspen",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1518732714860-b62714ce0c59",
+      "description": "Cozy 2 bed cabin with fireplace"
+    },
+    {
+      "id": "5",
+      "title": "Downtown Studio",
+      "location": "New York",
+      "price": 175,
+      "image": "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+      "description": "Compact studio in Manhattan"
+    },
+    {
+      "id": "6",
+      "title": "Rustic Farmhouse",
+      "location": "Tuscany",
+      "price": 95,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "description": "4 bed, 3 bath countryside retreat"
+    },
+    {
+      "id": 7,
+      "title": "Luxury Penthouse",
+      "location": "Tokyo",
+      "price": 300,
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+      "description": "3 bed, 2 bath with city skyline views"
+    },
+    {
+      "id": "cda2",
+      "title": "Nice and cozy",
+      "location": "Nigeria",
+      "price": 2500,
+      "image": "https://plus.unsplash.com/premium_photo-1661963360446-5ad15320b8bd?q=80&w=3455&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Nice and cozy"
+    },
+    {
+      "id": "d0d3",
+      "title": "Dine house",
+      "location": "Nigeria",
+      "price": 12000,
+      "image": "",
+      "description": "Nice house"
     }
   ]
 }

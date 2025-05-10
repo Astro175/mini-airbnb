@@ -1,14 +1,14 @@
-import { useMutation, useQueryClient } from "@tanstack/react-query";
+import {
+  useMutation,
+} from "@tanstack/react-query";
 import { PropertyService } from "@/services/propertyService";
 import { Property } from "@/types/property";
 
-export const useCreateProperty = () => {
-  const queryClient = useQueryClient();
 
-  return useMutation({
-    mutationFn: (newProperty: Omit<Property, "id">) =>
-      PropertyService.create(newProperty),
-    onSuccess: () => queryClient.invalidateQueries({queryKey: ["properties"]
-    })
+// Accept options and spread into useMutation
+export const useCreateProperty = () => {
+  return useMutation<Property, Error, Omit<Property, "id">, unknown>({
+    mutationFn: (newProperty) => PropertyService.create(newProperty),
+
   });
 };
